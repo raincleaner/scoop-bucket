@@ -1,0 +1,30 @@
+{
+    "version": "0.1.2",
+    "description": "Windows driver backup, recovery and official-source updates (public beta). Free version with optional Pro.",
+    "homepage": "https://raincleaner.eu/driver",
+    "license": "Freeware",
+    "notes": "Public beta. The Windows builds are not code-signed yet. Check the SHA-256 hashes at https://raincleaner.eu/driver",
+    "architecture": {
+        "64bit": {
+            "url": "https://raincleaner.eu/download/driver/RainDriver-0.1.2-win10-11-x64.exe#/RainDriver.exe",
+            "hash": "9f400c19b35e59f19f4e33b767d5812faf030ae4c5cfd5d64336680f41f0524e"
+        }
+    },
+    "shortcuts": [
+        [
+            "RainDriver.exe",
+            "Rain Driver"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raincleaner.eu/driver",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://raincleaner.eu/download/driver/RainDriver-$version-win10-11-x64.exe#/RainDriver.exe"
+            }
+        }
+    }
+}
