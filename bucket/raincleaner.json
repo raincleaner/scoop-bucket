@@ -1,13 +1,13 @@
 {
-    "version": "2.15.0",
+    "version": "2.15.1",
     "description": "Windows 10/11 cleanup tool that shows what it found and why before deleting. Free version with no ads; optional Pro.",
     "homepage": "https://raincleaner.eu",
     "license": "Freeware",
-    "notes": "The Windows builds are not code-signed yet. Check the SHA-256 hashes at https://raincleaner.eu/trust",
+    "notes": "The Windows builds are code-signed by Where2Go LTD. SHA-256 hashes: https://raincleaner.eu/trust",
     "architecture": {
         "64bit": {
-            "url": "https://raincleaner.eu/download/2.15.0/RainCleaner-portable-2.15.0.zip",
-            "hash": "4c6ce539338fbe1d9f3e5062c68471c796bbe4ed8fafa877dc971473b19bf62b"
+            "url": "https://raincleaner.eu/download/2.15.1/RainCleaner-portable-2.15.1.zip",
+            "hash": "f06610d6bdc8966f3c2081c4fe1773c7960196f7c716770840d7de93258889f1"
         }
     },
     "shortcuts": [
